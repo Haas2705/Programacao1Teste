@@ -1,0 +1,50 @@
+Nesta tarefa, você deve desenvolver um código em Java com as seguintes solicitações:
+
+1 - Classe Pessoa: Implementar uma classe com atributos e métodos relacionados a informações de uma pessoa.
+
+2 - Classe Presenca: Criar uma classe para registrar a presença de alunos, com métodos para marcar presença, gerar presença aleatória e imprimir as informações.
+
+3 - Classe Principal: Desenvolver a classe principal do programa, criando objetos Pessoa, gerando presença aleatória e exibindo as informações de presença.
+
+Classe Pessoa: A classe Pessoa representa uma pessoa com informações como nome, idade, peso e altura. Ela possui um construtor para inicializar essas informações e métodos para acessar e modificar os valores dos atributos.
+
+Classes:
+•Classe Pessoa
+Métodos:
+1. public Pessoa(String nome, int idade, double peso, double altura): Construtor da classe Pessoa que recebe os parâmetros nome, idade, peso e altura e os atribui aos respectivos atributos.
+2. public String getNome(): Retorna o nome da pessoa.
+3. public void setNome(String nome): Atribui um novo valor ao nome da pessoa.
+4. public int getIdade(): Retorna a idade da pessoa.
+5. public void setIdade(int idade): Atribui um novo valor à idade da pessoa.
+6. public double getPeso(): Retorna o peso da pessoa.
+7. public void setPeso(double peso): Atribui um novo valor ao peso da pessoa.
+8. public double getAltura(): Retorna a altura da pessoa.
+9. public void setAltura(double altura): Atribui um novo valor à altura da pessoa.
+10. @Override public String toString(): Retorna uma representação em formato de string
+dos dados da pessoa.
+Array:
+•Não há array na classe Pessoa.
+
+Classe Presenca: A classe Presença representa o registro de presença de alunos. Ela possui um array para armazenar as informações de presença e um array de objetos Pessoa para representar os alunos. A classe possui um construtor para inicializar o array de alunos e métodos para marcar a presença de um aluno, gerar presença aleatória e imprimir as informações de presença dos alunos.
+
+•Classe Presenca
+Métodos:
+1. public Presenca(Pessoa[] alunos): Construtor da classe Presenca que recebe um array de objetos Pessoa como
+parâmetro e inicializa o array de alunos com esse valor.
+2. public boolean[] getPresenca(): Retorna o array de presença dos alunos.
+3. public void setPresenca(boolean[] presenca): Atribui um novo array de presença dos alunos.
+4. public void marcarPresenca(int indice): Marca a presença de um aluno no índice especificado como verdadeiro.
+5. public void gerarPresencaAleatoria(): Gera aleatoriamente a presença dos alunos.
+6. public void imprimirPresenca(DecimalFormat df): Imprime na tela as informações de presença dos alunos, incluindo nome, idade, peso, altura e se estão presentes ou ausentes.
+Array:
+•private boolean[] presenca: Array que armazena as informações de presença dos alunos.
+•private Pessoa[] alunos: Array de objetos Pessoa que representa os alunos.
+
+A classe Principal é a classe principal do programa. Ela contém o método main, responsável por executar o programa. Nessa classe, são criados nomes aleatórios para representar os alunos. Para cada nome, é criado um objeto Pessoa com informações aleatórias de idade, peso e altura. Em seguida, é criado um objeto da classe Presenca, passando o array de alunos como parâmetro. A presença dos alunos é gerada aleatoriamente e, por fim, as informações de presença são impressas na tela.
+
+•Classe Principal
+Métodos:
+•public static void main(String[] args): Método principal que executa o programa.
+Array:
+•String[] nomes: Array de strings contendo os nomes dos alunos.
+•Pessoa[] alunos: Array de objetos Pessoa representando os alunos.

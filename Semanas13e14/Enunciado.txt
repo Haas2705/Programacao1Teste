@@ -1,0 +1,13 @@
+Exercícios de fixação
+
+Para os exercícios abaixo, considere a existência das classes Livro (com título, autor e ano), Universidade (com nome e número de alunos) e Produto (com preço). Todas as classes possuem construtor e os métodos de acesso para todos os atributos.
+
+Exercício 1. crie o método verificaLivro, que recebe um array de Livro e uma String titulo por parâmetro e retorna true caso exista um livro com aquele tírulo no array e false caso contrário.
+
+Exercício 2. crie o método retornaLivro, que recebe um array de Livro e uma String titulo e retorna o livro (objeto do tipo Livro) solicitado caso exista ou null caso contrário.
+
+Exercício 3. Crie o método imprimeUniversidades, que recebe um array de Universidade e imprime as informações de todas as Universidades do array.
+
+Exercício 4. Crie o método maisAlunos, que recebe um array de Universidade e retorna a Universidade com maior número de alunos deste array.
+
+Exercício 5. Crie o método produtoMaisBarato, que recebe um array de Produto e retorna o produto mais barato do array.
