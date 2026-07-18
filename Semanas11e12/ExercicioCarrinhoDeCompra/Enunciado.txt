@@ -1,0 +1,31 @@
+Atividade 2 – POO: Programação Orientada a Objetos
+Objetivo
+
+A atividade consiste em desenvolver um programa em Java para atualizar um carrinho de compras utilizando um array unidimensional de produtos.
+O programa oferece as seguintes funcionalidades:
+
+1. Adicionar Produto
+Permite ao usuário adicionar um produto ao carrinho.
+O usuário deve informar o nome e o preço do produto, e o programa o insere no carrinho.
+
+2. Remover Produto
+Permite ao usuário remover um produto do carrinho.
+O usuário deve informar o índice do produto a ser removido, e o programa realiza a exclusão.
+
+3. Exibir Carrinho
+Mostra na tela o conteúdo atual do carrinho de compras.
+O programa percorre o array de produtos e exibe o nome e o preço de cada produto presente no carrinho.
+
+4. Acessar Produto
+Permite ao usuário acessar as informações de um produto específico do carrinho.
+O usuário deve informar o índice do produto desejado, e o programa exibe o nome e o preço correspondentes.
+
+5. Pesquisar Produto
+Permite ao usuário pesquisar um produto pelo nome.
+O usuário deve digitar o nome do produto, e o programa verifica se o produto está presente no carrinho. Em caso positivo, exibe o nome e o preço do produto.
+
+Funcionamento do Programa
+O programa é apresentado como um menu interativo, onde o usuário escolhe a opção desejada através de um número.
+O menu é exibido repetidamente até que o usuário escolha a opção de sair.
+Durante a execução do programa, é utilizado um array unidimensional chamado "carrinho" para armazenar os produtos adicionados.
+O tamanho máximo do carrinho é definido pela constante TAMANHO_MAXIMO, e o tamanho atual do carrinho é armazenado na variável tamanhoAtual.
