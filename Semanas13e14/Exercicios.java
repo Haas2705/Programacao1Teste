@@ -82,6 +82,4 @@ public class Exercicios {
         return menorPreco;
     }
 
-
-
 }
